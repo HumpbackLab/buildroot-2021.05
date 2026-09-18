@@ -1,0 +1,6 @@
+# Keep gzip extraction available on CV181X ARM64, including tar.gz archives.
+CONFIG_FEATURE_SEAMLESS_GZ=y
+CONFIG_GUNZIP=y
+CONFIG_ZCAT=y
+CONFIG_TAR=y
+CONFIG_FEATURE_TAR_AUTODETECT=y
